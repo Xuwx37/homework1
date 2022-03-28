@@ -37,9 +37,11 @@ isort.file('pythonflie.py')
 
 ## 四、使用isort包对before_isort.py包进行排序
 1. 使用命令行  
+
 ![执行isort命令](命令行执行isort命令.png)
 
 2. 使用Pycharm外部工具中安装的isort
+
 ![使用Pycharm](Pycharm使用isort后的排序.png)
 
 可以看出使用isort包后，文件的import进行了重新的排序和分段。
