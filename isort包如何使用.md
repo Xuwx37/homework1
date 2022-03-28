@@ -5,7 +5,7 @@ isort包可以自动对Python文件的import语句进行排序，并自动按类
 ## 二、Python中isort包的使用
 1. 在命令行进行使用  
 
-使用命令以下命令对具体的pthonflie.py文件的import部分进行排序和分段
+使用以下命令对具体的pythonflie.py文件的import部分进行排序和分段
 
 ```
 isort pythonflie.py
@@ -17,14 +17,14 @@ import isort
 isort.file('pythonflie.py')
 ```
 
-3. 在Python集成开发平台使用
+3. 在Python集成开发环境使用
 - 在Pycharm中通过设置添加isort外部工具，在Python文件的编辑窗口，鼠标右键弹出菜单的外部工具中选择isort进行排序  
 ![Pycharm使用isort排序](Pycharm.png)
 - 在VSCode中设置python sort imports，在Python文件的编辑窗口，鼠标右键弹出菜单中选择“排序import语句”  
 ![VSCode使用isort排序](VSCode.png)
 ## 三、命令行详细使用——选项列表
 
-在命令行使用isort命令时，可进行多种选项设置，isort [a],例如可以选择以下选项a：
+在命令行使用isort命令时，可进行多种选项设置：isort [a],例如可以选择以下选项a：
 | 选项 | 描述 |
 | :--------:|:---:|
 |-h,--help|可以提供帮助信息，可以作为参考指南，进行查询|
