@@ -35,7 +35,7 @@ isort.file('pythonflie.py')
 |-c, --check-only,--check|检查文件中是否存在未排序的import，并将其打印到命令行，但并未修改文件|
 |--ac, --atomic|如果生成的文件中包含语法错误，则确保不会保存并输出|
 
-## 四、使用isort包对before_isort.py包进行排序
+## 四、使用isort包对before_isort.py文件进行排序
 1. 使用命令行  
 
 ![执行isort命令](命令行执行isort命令.png)
