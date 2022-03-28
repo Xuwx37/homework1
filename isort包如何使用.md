@@ -44,7 +44,7 @@ isort.file('pythonflie.py')
 
 ![使用Pycharm](Pycharm使用isort后的排序.png)
 
-可以看出使用isort包后，文件的import进行了重新的排序和分段。
+可以看出使用isort包后，文件的import部分被重新的排序和分段。
 
 
 
